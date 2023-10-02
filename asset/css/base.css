@@ -1,0 +1,39 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #777;
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+.bd-rd{
+    border-radius: 3px;
+}
+
+.img-bd-rd{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.box-sd{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.primary-heading{
+    padding: 24px 12px;
+    font-size: 2.1rem;
+    font-weight: bolder;
+    color: var(--black-color);
+    background-color: #f1f1f1 !important;
+}
